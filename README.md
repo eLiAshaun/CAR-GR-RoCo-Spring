@@ -69,6 +69,8 @@ PYTHONPATH=. python experiments/car_vs_cargr.py \
 
 The historical schedule evaluates steps 0/500/1000/2000/3000/4500/6000; step 2000 was selected by local ProxyRbS. A new run's selected step and numerical outputs are not guaranteed to be bit-identical. The recorded batch-8 training used an A100 80 GB GPU.
 
+See [Reproduction scope and asset documentation](REPRODUCIBILITY.md) for the experiment-to-code mapping, all 18 fixed development corruption strengths, coordinate units, and license status.
+
 ## Known limitations and verification status
 
 - The historical augmentation flips images and flow without correspondingly flipping the validity mask before cropping. Nonuniform masks may become misaligned. Its frequency and effect on the reported scores have not been measured. This release preserves the historical implementation; any correction should be released as a separately identified version.
