@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this versioned software archive when using the historical CAR-GR reproduction package."
+type: software
+title: "CAR-GR for RoCo-Spring: Historical Step-2000 Reproduction Package"
+authors:
+  - family-names: Shu
+    given-names: Zihang
+  - family-names: Guo
+    given-names: Xiangyu
+  - family-names: Li
+    given-names: Changrui
+version: 1.0.0
+date-released: 2026-09-14
+url: "https://github.com/eLiAshaun/CAR-GR-RoCo-Spring/releases/tag/v1.0.0"
+repository-code: "https://github.com/eLiAshaun/CAR-GR-RoCo-Spring"
+abstract: "Historical code, checkpoints and retained records for clean-anchored optical-flow adaptation in the RoCo-Spring Optical Flow Quantitative Track. Third-party assets retain their own license terms."

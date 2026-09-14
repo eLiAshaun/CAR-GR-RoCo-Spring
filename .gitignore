@@ -1,0 +1,15 @@
+# Datasets, checkpoints and generated outputs stay outside Git.
+/data/
+/outputs/
+/results/
+/reproduction_artifacts/
+*.pt
+*.pth
+*.hdf5
+*.flo5
+*.tar.gz
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store

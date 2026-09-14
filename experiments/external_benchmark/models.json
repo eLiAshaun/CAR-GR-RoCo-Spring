@@ -1,0 +1,35 @@
+{
+  "waft_dav2_a1": {
+    "family": "waft",
+    "input_frames": 2,
+    "config": "sources/WAFT/config/a1/tar-c-t-spring-1080p.json",
+    "checkpoint": "weights/waft/a1/tar-c-t-spring-1080p.pth"
+  },
+  "waft_dav2_a2": {
+    "family": "waft",
+    "input_frames": 2,
+    "config": "sources/WAFT/config/a2/dav2/tar-c-t-spring-540p.json",
+    "archive": "weights/waft/a2.zip",
+    "archive_member": "waftv2-ckpts/dav2/spring.pth"
+  },
+  "waft_twins_a2": {
+    "family": "waft",
+    "input_frames": 2,
+    "config": "sources/WAFT/config/a2/twins/tar-c-t-spring-540p.json",
+    "archive": "weights/waft/a2.zip",
+    "archive_member": "waftv2-ckpts/twins/spring.pth"
+  },
+  "waft_dinov3_a2": {
+    "family": "waft",
+    "input_frames": 2,
+    "config": "sources/WAFT/config/a2/dinov3/tar-c-t-spring-540p.json",
+    "archive": "weights/waft/a2.zip",
+    "archive_member": "waftv2-ckpts/dinov3/spring.pth"
+  },
+  "memfof_spring": {
+    "family": "memfof",
+    "input_frames": 3,
+    "config": "weights/memfof/config.json",
+    "checkpoint": "weights/memfof/model.safetensors"
+  }
+}

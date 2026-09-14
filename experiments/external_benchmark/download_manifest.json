@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-08-20T13:44:00.516365+00:00",
+  "artifacts": [
+    {
+      "path": "weights/waft/a1/tar-c-t-spring-1080p.pth",
+      "bytes": 256890618,
+      "sha256": "9d60657fbef26736200854c78b150ba3fc706c5b4b739da0cc79fbeecb0788fe"
+    },
+    {
+      "path": "weights/waft/a2.zip",
+      "bytes": 3702705327,
+      "sha256": "23282e0bf25e29e182ccedba8dc11969654c0658d06407edfc3932663109f62b"
+    },
+    {
+      "path": "weights/memfof/model.safetensors",
+      "bytes": 303172564,
+      "sha256": "8ed2112222944e7eda3325b226dbc351a3a1c8a0453a982949bdc782de641419"
+    },
+    {
+      "path": "weights/memfof/config.json",
+      "bytes": 157,
+      "sha256": "ca13779804c03db268cbca0115f0d5eb43fb7317a69f31547c7072eafc8fc2a3"
+    }
+  ]
+}

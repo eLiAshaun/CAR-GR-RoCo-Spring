@@ -1,0 +1,323 @@
+{
+  "aggregation": "global valid-pixel clean metrics; corruption proxy is macro mean of condition-global EPE",
+  "algorithm": "waft-a2",
+  "autocast": "R._forward_bundle only; residual head excluded",
+  "batch_size": 4,
+  "canonical_parent_metrics": {
+    "clean": {
+      "epe": 2.024452780787682,
+      "fl": 0.9811913761091821,
+      "one_px": 2.480133433400849,
+      "three_px": 1.2595290195794753,
+      "valid_count": 132710400,
+      "wauc": 96.82945965421737
+    },
+    "fixed_corruption_proxy_epe": 2.7274147875145194,
+    "groups": {
+      "Blur": 2.27034258925667,
+      "Color": 2.0985369728155243,
+      "Noise": 3.027649660786115,
+      "Quality": 2.2157269316397046,
+      "Weather": 3.4348864786728455
+    },
+    "motion_epe_clean": {
+      "s0-10": 0.11286002338148098,
+      "s10-40": 0.5146263906955126,
+      "s40+": 84.25791209825424
+    },
+    "motion_valid_count_clean": {
+      "s0-10": 117979233,
+      "s10-40": 11772485,
+      "s40+": 2958682
+    },
+    "per_condition": {
+      "brightness": {
+        "epe": 2.1251011354772573,
+        "fl": 1.0032047224633487,
+        "one_px": 2.5570972583912037,
+        "three_px": 1.2994188850308641,
+        "valid_count": 132710400,
+        "wauc": 96.79057351097794
+      },
+      "clean": {
+        "epe": 2.024452780787682,
+        "fl": 0.9811913761091821,
+        "one_px": 2.480133433400849,
+        "three_px": 1.2595290195794753,
+        "valid_count": 132710400,
+        "wauc": 96.82945965421737
+      },
+      "contrast": {
+        "epe": 2.0743119045174843,
+        "fl": 1.0347229757426697,
+        "one_px": 2.614757396556713,
+        "three_px": 1.3352088457272377,
+        "valid_count": 132710400,
+        "wauc": 96.6440105167879
+      },
+      "defocus_blur": {
+        "epe": 2.0324371281169356,
+        "fl": 1.0710253303433641,
+        "one_px": 2.6671911168981484,
+        "three_px": 1.3900967821662809,
+        "valid_count": 132710400,
+        "wauc": 96.6781999790148
+      },
+      "fog": {
+        "epe": 3.5102101427798376,
+        "fl": 2.025202998408565,
+        "one_px": 10.042448067370756,
+        "three_px": 2.218532232590664,
+        "valid_count": 132710400,
+        "wauc": 91.771107833521
+      },
+      "frost": {
+        "epe": 5.2839731803104115,
+        "fl": 16.065083068094136,
+        "one_px": 24.97671245056906,
+        "three_px": 16.30703999083719,
+        "valid_count": 132710400,
+        "wauc": 77.4469422601304
+      },
+      "gaussian_blur": {
+        "epe": 2.024331611554998,
+        "fl": 1.0288794246720678,
+        "one_px": 2.5616033106674383,
+        "three_px": 1.3249564465181327,
+        "valid_count": 132710400,
+        "wauc": 96.7871055368205
+      },
+      "gaussian_noise": {
+        "epe": 3.030987792935096,
+        "fl": 2.354482391734182,
+        "one_px": 7.8760986328125,
+        "three_px": 2.5876103153935186,
+        "valid_count": 132710400,
+        "wauc": 90.98113819815686
+      },
+      "impulse_noise": {
+        "epe": 4.112360802485775,
+        "fl": 5.818549262152778,
+        "one_px": 18.211748288001544,
+        "three_px": 6.0842104311342595,
+        "valid_count": 132710400,
+        "wauc": 84.71681767813283
+      },
+      "jpeg_compression": {
+        "epe": 2.372898706967148,
+        "fl": 1.2991476176697532,
+        "one_px": 3.1319986979166665,
+        "three_px": 1.625852985146605,
+        "valid_count": 132710400,
+        "wauc": 95.70270919771825
+      },
+      "motion_blur": {
+        "epe": 2.0675132529176907,
+        "fl": 1.1076841001157407,
+        "one_px": 2.739402488425926,
+        "three_px": 1.4078308858989197,
+        "valid_count": 132710400,
+        "wauc": 96.45409294655323
+      },
+      "pixelate": {
+        "epe": 2.058555156312261,
+        "fl": 1.0737990391107253,
+        "one_px": 2.62250057267554,
+        "three_px": 1.4142991054205247,
+        "valid_count": 132710400,
+        "wauc": 96.60742914699456
+      },
+      "rain": {
+        "epe": 2.2796767712112658,
+        "fl": 1.1363276728877314,
+        "one_px": 2.725899402006173,
+        "three_px": 1.4448038736979167,
+        "valid_count": 132710400,
+        "wauc": 96.47024445307484
+      },
+      "saturate": {
+        "epe": 2.0961978784518314,
+        "fl": 1.0489155333719136,
+        "one_px": 2.52527156876929,
+        "three_px": 1.3261884524498457,
+        "valid_count": 132710400,
+        "wauc": 96.76509099289105
+      },
+      "shot_noise": {
+        "epe": 2.770012984805873,
+        "fl": 1.7248030297550154,
+        "one_px": 4.015951274353781,
+        "three_px": 2.0140787760416665,
+        "valid_count": 132710400,
+        "wauc": 92.78078898455169
+      },
+      "snow": {
+        "epe": 3.869065177250366,
+        "fl": 4.734508373119213,
+        "one_px": 16.44634708357446,
+        "three_px": 5.0098085756655095,
+        "valid_count": 132710400,
+        "wauc": 86.020720135463
+      },
+      "spatter": {
+        "epe": 2.2315071218123466,
+        "fl": 1.1088415075231481,
+        "one_px": 2.795129093123071,
+        "three_px": 1.4641829125675154,
+        "valid_count": 132710400,
+        "wauc": 95.4507150609131
+      },
+      "speckle_noise": {
+        "epe": 2.197237062917715,
+        "fl": 1.1993385597511574,
+        "one_px": 5.0513735170717595,
+        "three_px": 1.5297022690007716,
+        "valid_count": 132710400,
+        "wauc": 92.82119977793678
+      },
+      "zoom_blur": {
+        "epe": 2.957088364437055,
+        "fl": 3.3334644458912037,
+        "one_px": 5.155353310667438,
+        "three_px": 3.764246811101466,
+        "valid_count": 132710400,
+        "wauc": 93.6535016462258
+      }
+    },
+    "per_scene_clean": {
+      "0002": {
+        "epe": 0.16251151883000312,
+        "fl": 0.9255702642746914,
+        "one_px": 2.1485399787808643,
+        "three_px": 0.942090446566358,
+        "valid_count": 33177600,
+        "wauc": 98.00222128576789
+      },
+      "0006": {
+        "epe": 0.17765747573537924,
+        "fl": 0.39124288676697533,
+        "one_px": 2.008496696566358,
+        "three_px": 0.5091778790509259,
+        "valid_count": 33177600,
+        "wauc": 96.6757223834905
+      },
+      "0015": {
+        "epe": 7.503241673997036,
+        "fl": 2.349000530478395,
+        "one_px": 5.248688874421297,
+        "three_px": 3.3278959297839505,
+        "valid_count": 33177600,
+        "wauc": 94.62212746904031
+      },
+      "0022": {
+        "epe": 0.25440045458831073,
+        "fl": 0.2589518229166667,
+        "one_px": 0.5148081838348766,
+        "three_px": 0.2589518229166667,
+        "valid_count": 33177600,
+        "wauc": 98.01776747857078
+      }
+    },
+    "record_count": 1216
+  },
+  "canonical_reference_run": "RUN_A",
+  "checkpoint": "/root/siton-data-dataxy/RoCo-Spring/results/car_vs_cargr/CAR_GR/best.pt",
+  "checkpoint_identity": {
+    "branch": "CAR_GR",
+    "contract_id": "car-vs-cargr-v1",
+    "step": 2000
+  },
+  "checkpoint_load": "fresh torch.load(weights_only=True); model/head strict=True",
+  "conditions": [
+    "clean",
+    "brightness",
+    "contrast",
+    "defocus_blur",
+    "fog",
+    "frost",
+    "gaussian_blur",
+    "gaussian_noise",
+    "impulse_noise",
+    "jpeg_compression",
+    "motion_blur",
+    "pixelate",
+    "rain",
+    "saturate",
+    "shot_noise",
+    "snow",
+    "spatter",
+    "speckle_noise",
+    "zoom_blur"
+  ],
+  "contract_id": "car-gr-eval-protocol-lock-v1",
+  "correlation_implementation": "WAFT native coords_grid + bilinear_sampler feature warp; no RAFT correlation volume",
+  "data_loader": "none; direct manifest traversal",
+  "data_order": "64 sorted identities, contiguous batches of 4",
+  "dav2_feature_extraction": "Depth Anything V2 ViT-S, checkpoint-loaded, eval mode, frozen",
+  "deterministic_flags": {
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "deterministic_algorithms": false,
+    "float32_matmul_precision": "high",
+    "matmul_tf32": true
+  },
+  "directions": [
+    "BW",
+    "FW"
+  ],
+  "evaluation_iterations": 5,
+  "flow_upsampling": "WAFT learned convex 2x to 540x960, then bilinear align_corners=True to 1080x1920 with x/y scale=2",
+  "head_precision": "FP32 outside autocast",
+  "image_cache": "process-local decoded/corrupted image cache only; never shared between RUN_A/RUN_B",
+  "image_ordering": "sample_id ascending; image1/image2 follow labeled manifest direction",
+  "input_decode": "cv2 BGR -> copied RGB float32 [0,255]",
+  "input_resolution": [
+    1080,
+    1920
+  ],
+  "locked_from": [
+    "RUN_A",
+    "RUN_B"
+  ],
+  "max_flow_filtering": "none in metric aggregation",
+  "model_mode": "model.eval(); head.eval(); torch.no_grad()",
+  "model_precision": "BF16 autocast",
+  "native_resolution": [
+    540,
+    960
+  ],
+  "observed_relative_epe_difference_pct": 0.01818432765155754,
+  "padding": "WAFT internal Padder factor=112, symmetric constant-zero; output unpadded",
+  "per_image_weighting": "none",
+  "per_pixel_weighting": "uniform over valid pixels",
+  "prediction_cache_generation": false,
+  "prediction_cache_reading": false,
+  "required_for_phases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "resize": "torch bilinear align_corners=True, 1080x1920 -> 540x960",
+  "runtime": {
+    "cuda": "12.8",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu128"
+  },
+  "sample_selection": "R._eval_rows(64): sorted balanced scene x direction x side, four samples per stratum",
+  "scene_list": [
+    "0002",
+    "0006",
+    "0015",
+    "0022"
+  ],
+  "seed": 0,
+  "sides": [
+    "left",
+    "right"
+  ],
+  "stability_threshold_pct": 0.02,
+  "valid_mask": "Spring GT valid mask AND finite GT/prediction"
+}

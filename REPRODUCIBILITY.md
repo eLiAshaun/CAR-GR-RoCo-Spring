@@ -62,4 +62,4 @@ The historical validity-mask flip issue described in the repository README remai
 
 The archive was fully downloaded anonymously and matched its SHA-256; all 319 manifest entries passed. Static inspection checked the documented entry points, argument definitions, data paths, environment specification, parent/selected checkpoints, and retained records. This is not a new training or model-evaluation run.
 
-**License gap:** no explicit license for the authors' additions is supplied. Public download does not itself grant an open-source license. Third-party code and model terms remain applicable. This documentation does not grant or replace those rights.
+Author-created code and documentation, including original additions in the historical archive, are now licensed under the repository's BSD-3-Clause LICENSE. Third-party source and model terms remain applicable; see THIRD_PARTY_NOTICES.md. The historical archive bytes remain unchanged.
